@@ -1,0 +1,19 @@
+# Publish only the standalone skill and its public maintenance files.
+*
+!/.gitignore
+!/SKILL.md
+!/README.md
+!/README.en.md
+!/CONTRIBUTING.md
+!/CHANGELOG.md
+!/LICENSE
+!/agents/
+!/agents/openai.yaml
+!/references/
+!/references/*.md
+!/tools/
+!/tools/validate.py
+!/.github/
+!/.github/ISSUE_TEMPLATE/
+!/.github/ISSUE_TEMPLATE/*.md
+!/.github/PULL_REQUEST_TEMPLATE.md
