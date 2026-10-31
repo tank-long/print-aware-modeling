@@ -41,6 +41,8 @@ description: 面向 FDM/FFF 3D 打印，在从需求或草图建模时考虑打�
 
 需要其他实现作参考时，读取 [GitHub 设计模式](references/github-patterns.md)：支撑形状与渐缩参数、孔口桥接过渡、圆角悬垂限制。外部项目的文档和源码观察不算本用户的实打经验。
 
+遇到卡臂折断或扣合手感问题，读取 [弹性卡扣](references/snap-fit-design.md)；倾斜打印件易翻倒及可拆连接，读取 [建模支撑鳍片](references/modeled-support-fins.md)；侧壁孔顶下垂、压入开裂或需要局部弹性，读取 [侧孔设计](references/side-hole-design.md)。这些包含外部视频候选，按当前几何和实际路径重新验证。
+
 设计手绘支撑时讲清：
 
 - **托哪里：** 从平台或已有稳定区域到目标悬空轮廓的支承路径；只托某一圈时，检查剩余跨距及第一条线的起点。
