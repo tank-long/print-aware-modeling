@@ -89,6 +89,8 @@ P001/P002 是维护者项目摘要，原始模型与检查脚本未随本仓库�
 
 当前面向 FDM/FFF。树脂工艺、完整切片配置、模型平台发布和打印机控制不在本仓库范围内。尺寸、支撑间隙与悬垂角度均按具体条件判断，不提供一个数值通用的成功承诺。
 
-安装 skill 不会启动后台学习，也不会自动上传模型或提交案例。它会在任务中寻找可复用经验，在当前用户授权范围内维护记录。贡献方式见 [CONTRIBUTING.md](CONTRIBUTING.md)，版本变化见 [CHANGELOG.md](CHANGELOG.md)。维护者可运行 `python3 tools/validate.py` 检查发布结构和本地引用；这不验证实际打印效果。
+它会在实际任务中寻找可复用经验：整理事实与证据 → 更新技能 → 校验 → 同步安装 → 在已有公开授权范围内同步 GitHub。安装本身不授予发布权限，原始模型和私有记录不会自动上传，也没有后台学习进程。具体规则见 [持续迭代流程](references/iteration-workflow.md)。
+
+日常改进进入 `main` 和 Unreleased，积累一组改进后再发布新版本；已下载的旧包不会自动更新。贡献方式见 [CONTRIBUTING.md](CONTRIBUTING.md)，版本变化见 [CHANGELOG.md](CHANGELOG.md)。维护者可运行 `python3 tools/validate.py` 检查发布结构和本地引用；这不验证实际打印效果。
 
 仓库原创内容采用 [MIT License](LICENSE)。外链项目、文档及未随仓库分发的模型仍遵循各自的授权；本仓库许可不替代它们的许可。

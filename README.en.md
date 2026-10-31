@@ -43,7 +43,9 @@ Preserve the specified interfaces and report only verification actually performe
 
 The [manual-support walkthrough](references/modeling-with-supports.md) is a hypothetical design exercise, not a print-tested model. P001 and P002 are historical maintainer case summaries; their original model files and verification scripts are not distributed here. P001 includes broad positive print feedback with incomplete process conditions. P002 has recorded geometry checks but no physical print validation.
 
-No universal support gap, wall thickness, fit allowance or overhang angle is promised. The skill does not automatically upload files, publish feedback or run background updates.
+No universal support gap, wall thickness, fit allowance or overhang angle is promised. Installing the skill does not grant permission to publish feedback or upload models. With an existing user authorization, the assistant can distill public-safe lessons, validate changes, sync the local installation and publish updates during the task. It does not run background updates. See the [iteration workflow](references/iteration-workflow.md).
+
+Routine improvements go to `main` and Unreleased; a new Release groups a meaningful set of changes. Previously downloaded packages do not update automatically.
 
 Contribute reproducible successes and failures through the [contribution guide](CONTRIBUTING.md). Run `python3 tools/validate.py` for repository checks; these checks do not establish printability.
 
