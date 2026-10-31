@@ -1,0 +1,4 @@
+interface:
+  display_name: "面向 FDM 打印的模型设计与优化"
+  short_description: "建模时考虑打印方向、结构、装配与手工支撑，也检查已有模型的可打印性"
+  default_prompt: "使用 $print-aware-modeling 从需求设计模型或检查已有模型，在建模时考虑 FDM 打印约束和必要的手工支撑，交付实际完成的模型或方案、关键参数与验证状态。"
